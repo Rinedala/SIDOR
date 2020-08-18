@@ -3,8 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>cafe vending</title>
-
+  <title>Cafe Vending</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -13,9 +13,9 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">Vending</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#por">¿Porque elegirnos?</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -34,7 +34,7 @@
           <h5 class="header col s12 dark">Para un mundo en cuarentena</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Contacto</a>
+          <a href="#contacto" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Contacto</a>
         </div>
         <br><br>
 
@@ -54,7 +54,7 @@
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Innovacion es nuestro nombre</h5>
 
-            <p class="light">SHIO es una empresa innovadora en el servicio de Vending, donde nuestro objetivo es que note la diferencia en nuestras presentaciones. Para ello, cubrimos nuestro grupo de clientes, con distribuidor automáticos de primera linea, que nos brindan experiencia y nos asegura tecnologia con eficiencia.
+            <p class="light">Es una empresa innovadora en el servicio de Vending, donde nuestro objetivo es que note la diferencia en nuestras presentaciones. Para ello, cubrimos nuestro grupo de clientes, con distribuidor automáticos de primera linea, que nos brindan experiencia y nos asegura tecnologia con eficiencia.
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Calidad es nuestra marca</h5>
 
-            <p class="light">El servicio SHIO se diferencia fundamentalmente en la calidad de los
+            <p class="light">El servicio diferencia fundamentalmente en la calidad de los
             productos que utilizan muestras expendedoras, ya que conscientes de estar tratando con un mercado altamente competitivo, la diferencia esta marcada por la calidad del servicio y el delicioso sabor de las bebidas erogadas. </p>
           </div>
         </div>
@@ -98,20 +98,19 @@
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Porque elegirnos</h4>
+          <h4 id='por'>Porque elegirnos</h4>
           <p class="left-align light">Por ser una empresa diferente orientada a la satisfacción del cliente a lograr su fidelidad a través de una permanente búsqueda de la excelencia. Por la excepcional calidad de los productos empleados.
-            Por la moderna tecnologia de todos los equipos instalados fabricados por empresas lideres mundiales en el sector, NEW BIANCHI ZANUZZI, SAECO. Por el servicio que presta, por la respuesta inmediata a cualquier requerimiento. Por ser una empresa diferente orientada a la satisfacción del cliente a lograr su fidelidad a través de una permanente búsqueda de la excelencia. Por la excepcional calidad de los productos empleados
-            Por la moderna tecnologia de todos los equipos instalados fabricados por empresas lideres mundiales en el sector, NEW BIANCHI ZANUZZI, SAECO. Por el servicio que presta, por la respuesta inmediata a cualquier requerimiento
-            Por la responsabilidad que asume frente a sus clientes, cada equipo
-            instalado está respaldado por un seguro de responsabilidad civil por daños que se puedan
-            casionar a terceros Por la experiencia de sus integrantes, que con más de 20 años en el sector. uvalan una trayectoria ascendente que es distancia cada vez más de la competencia Por el verdadero costo del servicio, el analisis de la relación precio prestación, que en definitiva es lo que se debe analizar, nos posiciona holgadamente al frente del mercado,</p>
+            Por la moderna tecnologia de todos los equipos instalados fabricados por empresas lideres mundiales en el sector.
+            Por el servicio que presta, por la respuesta inmediata a cualquier requerimiento. Por ser una empresa diferente orientada a la satisfacción del cliente a lograr su fidelidad a través de una permanente búsqueda de la excelencia. Por la excepcional calidad de los productos empleados
+            Por el servicio que presta, por la respuesta inmediata a cualquier requerimiento
+            Por la responsabilidad que asume frente a sus clientes, cada equipo instalado está respaldado por un seguro de responsabilidad civil por daños que se puedan
+            ocasionar a terceros Por la experiencia de sus integrantes que avalan una trayectoria ascendente que es distancia cada vez más de la competencia Por el verdadero costo del servicio, el analisis de la relación precio prestación, que en definitiva es lo que se debe analizar, nos posiciona holgadamente al frente del mercado.
+          </p>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -126,67 +125,68 @@
     </div>
     <div class="parallax"><img src="cafe2.jpg" alt="Unsplashed background img 3"></div>
   </div>
-  <div class="container">
+  
+  <!-- Inputs -->
+  <div class="container" id="contacto">
+  <div class="row">Dejenos su consulta:
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
+          <input  id="first_name" type="text" class="validate">
+          <label for="first_name">Nombre</label>
         </div>
         <div class="input-field col s6">
           <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
+          <label for="last_name">Apellido</label>
         </div>
+      
+      
+      
+      
       </div>
+      
       <div class="row">
-        <div class="input-field col s12">
-          <input  value="Su mensage..."  type="text" class="validate">
-          <label for="text">Mensaje</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
+        <div class="input-field col s6">
           <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
+          <label for="email">E-mail</label>
+        
       </div>
-
+     
+        
+         <div class="input-field col s6">
+            <input id="textarea" type="email" class="validate">
+            <label for="textarea">Consulta</label>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>
+                  
+          </div>
         </div>
       </div>
     </form>
   </div>
+  </div>
+        
+      <footer class="page-footer teal">
+        <div class="container">
+          <div class="row">
+            <div class="col l12 s12">
+              <h5 class="white-text">Nosotros</h5>
+              <p class="grey-text text-lighten-4">Vending operamos en el mercado argentino, brindando servicios de bebidas calientes, frias, snacks, golosinas y más a través de máquinas expendedoras. Así podrá contentar a sus empleados y visitantes con un servicio de valor agregado en su área de trabajo, sala de espera, sala de reuniones, comedor, sanatorios, etc.
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Nosotros</h5>
-          <p>En Club Vending operamos en el mercado argentino, brindando servicios de bebidas calientes, frias, snacks, golosinas y más a través de máquinas expendedoras. Así podrá contentar a sus empleados y visitantes con un servicio de valor agregado en su área de trabajo, sala de espera, sala de reuniones, comedor, sanatorios, etc.
-
-            Además nosotros nos encargaremos de la instalación, mantenimiento y asistencia técnica de los equipos, junto con la provisión y reposición de insumos en forma periódica y suficiente.</p>
-          <p class="grey-text text-lighten-4">
-          </p>
-
-
+Además nosotros nos encargaremos de la instalación, mantenimiento y asistencia técnica de los equipos, junto con la provisión y reposición de insumos en forma periódica y suficiente.</p>
+    
+    
+            </div>
+            
+            <i class="fab fa-facebook-square fa-7x"></i>&nbsp;<i class="fab fa-instagram fa-7x"></i>&nbsp;<i class="fab fa-twitter-square fa-7x"></i>
         </div>
-
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-       <a class="black-text text-lighten-3" href="http://materializecss.com"></a>
-      </div>
-    </div>
-
-
-  </footer>
-
+        <div class="footer-copyright"></i>
+          <div class="fluid">
+          © 2020 Copyright <a class="brown-text text-lighten-3" href="http://webly">Webly</a>
+          </div>
+        </div>
+      </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
