@@ -1,19 +1,14 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+
 
 nav ul a,
 nav .brand-logo {
   color: #000;
 }
-
+ 
 p {
   line-height: 2rem;
 }
+
 
 .sidenav-trigger {
   color: #95e0d8;
@@ -28,6 +23,9 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+.fab {
+margin-left: 200px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -37,25 +35,32 @@ p {
   #index-banner .section {
     top: 10%;
   }
-}
-
+  .fab {
+    margin-left: 10x;
+    }
+  }
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
-}
+  .fab {
+    margin-left: 0;
+    }
+.fluid{
+text-align: center;
 
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
 }
+.page-footer {
+  
+  text-align: center;
+  }
 
-footer.page-footer {
-  margin: 0;
-  background-color: ;
-}
 
   /* label color */
   .input-field label {
@@ -84,6 +89,6 @@ footer.page-footer {
   .input-field .prefix.active {
     color: #000;
   }
-
+}
 
   
