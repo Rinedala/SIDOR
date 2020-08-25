@@ -43,7 +43,10 @@ p {
   line-height: 2rem;
   text-align: center;
 }
-
+#textarea {
+  outline:"none"
+  
+}
 
 .sidenav-trigger {
   color: #95e0d8;
