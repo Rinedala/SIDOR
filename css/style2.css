@@ -1,9 +1,8 @@
 
 .social {
 	position: fixed;
-	left: 0; 
 	top:450px; 
-	z-index: 2000; 
+	z-index: 112000; 
 }
  
 	.social ul {
@@ -11,26 +10,27 @@
 	}
  
 	.social ul li a {
+    margin-left:0;
 		display: inline-block;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
+		color: black;
+    border-radius: 50%;
+    padding: 10px 15px ;
 		text-decoration: none;
 		-webkit-transition:all 500ms ease;
 		-o-transition:all 500ms ease;
 		transition:all 500ms ease; 
 	}
  
-	.social ul li .icon-facebook {background:#3b5998;} 
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-google {background: #d95232;}
-	.social ul li .icon-instagram {background: #ae181f;}
-	.social ul li .icon-mail {background: #666666;}
- 
+	.social ul li .fa-facebook {background:#3b5998;} 
+	.social ul li .fa-twitter {background: #00abf0;}
+	.social ul li .fa-google-plus-square {background: #d95232;}
+	.social ul li .fa-instagram {background: #ae181f;}
+	.social ul li .fa-envelope {background: #666666;}
+  .social ul li .fa-linkedin-in {background: chocolate;}
   
   
   .social ul li a:hover {
-		background: #000; 
+		background: orange; 
 		padding: 10px 30px; 
   }
   
@@ -43,10 +43,9 @@ p {
   line-height: 2rem;
   text-align: center;
 }
-#textarea {
-  outline:"none"
+
   
-}
+
 
 .sidenav-trigger {
   color: #95e0d8;
@@ -58,10 +57,12 @@ p {
   height: auto;
   color: rgba(255,255,255,1);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
     
   }
+  
 .fab {
 margin-left: 200px;
 }
