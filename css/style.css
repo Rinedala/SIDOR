@@ -1,0 +1,209 @@
+html{overflow-y:scroll; overflow-x:hidden;}
+html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
+
+*, *::before, *::after{box-sizing:border-box;}
+
+
+
+/* social network no conectada */
+/* .social {
+	position: fixed;
+	top:450px; 
+	z-index: 112000; 
+}
+ 
+	.social ul {
+    list-style: n
+    ;
+	}
+ 
+	.social ul li a {
+    margin-left:0;
+		display: inline-block;
+		color: black;
+    border-radius: 50%;
+    padding: 10px 15px ;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	} */
+ 
+	/* .social ul li .fa-facebook {background:#3b5998;} 
+	.social ul li .fa-twitter {background: #00abf0;}
+	.social ul li .fa-google-plus-square {background: #d95232;}
+	.social ul li .fa-instagram {background: #ae181f;}
+	.social ul li .fa-envelope {background: #666666;}
+  .social ul li .fa-linkedin-in {background: chocolate;} */
+  
+  
+  /* .social ul li a:hover {
+		background: orange; 
+		padding: 10px 30px; 
+  } */
+  
+nav ul a,
+nav  {
+  color: #000;
+}
+ 
+p {
+
+  text-align: center;
+  
+}
+#mark{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.brand-logo{
+  margin-top: px;
+  margin-left: 50px;
+  border-radius: 50%;
+  height: 70px;
+  width:70px;
+
+
+}
+
+#cta .sectiontitle{margin-bottom:50px;}
+
+
+#cta ul li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+#cta ul li div{position:relative; min-height:60px; padding:20px; padding-left:100px;}
+#cta ul li div i{position:absolute; top:20px; left:20px; width:60px; height:60px; line-height:58px; font-size:22px; text-align:center; border:1px solid; border-radius:50%;}
+#cta ul li div span{display:block; padding:8px 0 0 0;}
+#cta ul li div span strong{display:block; text-transform:capitalize;}
+
+  
+
+#cta ul li{color:#474747; background-color:#FFFFFF;}
+#cta ul li div i{color:#4FB5F5; border-color:rgba(0,0,0,.1);}
+
+.heading{
+  text-align: center;
+  
+}
+.footer-copyright{
+  text-align: center;
+}
+.one_third{display:inline-block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+
+.one_third{width:30.52631%;}
+.page-footer{
+  align-items:center;
+}
+
+.nospace{margin:0; padding:0; list-style:none;}
+.heading{font-family:Georgia, "Times New Roman", Times, serif;}
+
+.block{display:block;}
+.gradient{color:#FFFFFF; background:linear-gradient(to bottom right, #0E74A5, #4FB5F5);}
+
+
+.wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+
+.hoc{display:block; margin:0 auto;}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+
+.sidenav-trigger {
+  color: #95e0d8;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,1);
+}
+
+.parallax-container .section {
+    width: 100%;
+    
+  }
+  
+.fab {
+margin-left: 200px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .fab {
+    margin-left: 10x;
+    }
+  }
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .fab {
+    margin-left: 0;
+    }
+.fluid{
+text-align: center;
+
+}
+h5{text-align: center;}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.page-footer {
+  
+  text-align: center;
+  }
+  .one_third{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;
+  }
+  #cta ul li div{margin-bottom:2px; padding-right:0; border-right:none;
+  }
+  /* label color */
+  .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+}
+
+  git add .
+  
